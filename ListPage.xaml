@@ -10,7 +10,8 @@
                     <local:ValidationBehaviour/>
                 </Editor.Behaviors>
             </Editor>
-        <Grid>
+            <Picker x:Name="ShopPicker" Title="Enter Shop Name" />
+            <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
